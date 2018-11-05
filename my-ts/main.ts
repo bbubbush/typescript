@@ -13,7 +13,7 @@ hisBag = 22;
 hisBag = true;
 hisBag = "bag";
 
-// array
+// array 
 let heroes: string[] = ['Batman', 'Captain America', 'Iron Man'];
 
 // tuple
@@ -40,3 +40,15 @@ console.log(color4);
 // any
 let batmanCar: any = "K5";
 batmanCar = {maker: "KIA", manufactured: 2017};
+
+// function return type
+function returnMyName(): string{
+    return myName;
+}
+console.log(returnMyName());
+
+// function argments type 
+function multiply(value1: number, value2: number): number{
+    return value1 * value2;
+}
+console.log(multiply(3, 10));

@@ -9,7 +9,7 @@ var hisBag;
 hisBag = 22;
 hisBag = true;
 hisBag = "bag";
-// array
+// array 
 var heroes = ['Batman', 'Captain America', 'Iron Man'];
 // tuple
 var classB = ['Students', 20];
@@ -33,3 +33,13 @@ console.log(color4);
 // any
 var batmanCar = "K5";
 batmanCar = { maker: "KIA", manufactured: 2017 };
+// function return type
+function returnMyName() {
+    return myName;
+}
+console.log(returnMyName());
+// function argments type 
+function multiply(value1, value2) {
+    return value1 * value2;
+}
+console.log(multiply(3, 10));
